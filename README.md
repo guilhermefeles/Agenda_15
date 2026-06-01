@@ -42,3 +42,5 @@ Basta abrir o arquivo `index.html` diretamente no navegador — não requer serv
 - Sidebar fixa de navegação lateral 
 - Background com parallax fixo na seção hero
 - Layout responsivo via W3.CSS grid
+
+![alt text]({6A125648-5B66-4355-84DC-C75ABB9A2999}.png)
