@@ -52,5 +52,5 @@ Primeiro expliquei o objetivo, e qual seria a atividade e orientei ela a me guia
 
 Daqui que veio o nome Verdant, achei bem interessante.
 
-Nisso ele deu ideis de textos tambem.
+Nisso ele deu ideias de textos tambem.
 ![alt text](readme-images/img2.png)
