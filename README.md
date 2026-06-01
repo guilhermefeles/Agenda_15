@@ -43,4 +43,14 @@ Basta abrir o arquivo `index.html` diretamente no navegador — não requer serv
 - Background com parallax fixo na seção hero
 - Layout responsivo via W3.CSS grid
 
+### Registro de uso da IA
+
+Primeiro expliquei o objetivo, e qual seria a atividade e orientei ela a me guia durante o processo.
+
 ![alt text]({6A125648-5B66-4355-84DC-C75ABB9A2999}.png)
+![alt text]({47629588-3DC9-4936-BE6A-7B586B23DCAD}.png)
+
+Daqui que veio o nome Verdant, achei bem interessante.
+
+Nisso ele deu ideis de textos tambem.
+![alt text]({F97466FD-4CD4-496D-9B4D-8474C492435A}.png)
