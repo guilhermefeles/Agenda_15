@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Verdant — Tecnologia que respeita o planeta</title>
+
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .w3-sidebar {
+            width: 130px;
+            background: #1b4332;
+            border-right: 3px solid #2c6d52;
+        }
+
+        .card-effects {
+            background: #2c6d52af;
+            border-radius: 20px;
+            border: 3px solid #2c6d52;
+        }
+
+        .w3-third {
+            padding: 6px;
+        }
+
+        #main {
+          margin-left: 130px;
+        }
+
+        #home {
+            background-image: url('imagens/verdant-forest.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 50vh;
+        }
+
+        .fade-overlay {
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body class="w3-black">
+
+    <!-- SIDEBAR (navegação lateral) -->
+    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+
+    <!-- HOME -->
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-text-green w3-text-white">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+
+    <!-- PARCEIROS -->
+    <a href="#parceiros" class="w3-bar-item w3-button w3-padding-large w3-hover-text-green w3-text-white">
+        <i class="fa fa-handshake-o w3-xxlarge"></i>
+        <p>PARCEIROS</p>
+    </a>
+
+    <!-- FAQ -->
+    <a href="#faq" class="w3-bar-item w3-button w3-padding-large w3-hover-text-green w3-text-white">
+        <i class="fa fa-question-circle w3-xxlarge"></i>
+        <p>FAQ</p>
+    </a>
+    
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="w3-padding-large" id="main">
+
+        <!-- HEADER / HOME -->
+    <header class="w3-center" id="home">
+        <div class="fade-overlay w3-padding-32">
+            <h1 class="w3-text-green w3-xxxlarge"><b>Verdant</b></h1>
+            <p class="w3-text-white w3-large">Tecnologia que respeita o planeta</p>
+        </div>
+    </header>
+        
+        <!-- ÁREA PRINCIPAL DA HOME -->
+    <div class="w3-content w3-padding-64" id="sobre">
+        
+        <h2 class="w3-text-green">Quem somos</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p class="w3-text-white">
+            A Verdant nasceu da crença de que tecnologia e natureza podem caminhar juntas. 
+            Somos uma consultoria especializada em soluções sustentáveis para empresas que 
+            desejam reduzir seu impacto ambiental sem abrir mão da inovação.
+        </p>
+
+        <h2 class="w3-text-green">Nossa Missão</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p class="w3-text-white">
+            Transformar a forma como empresas se relacionam com o meio ambiente, 
+            oferecendo tecnologia limpa, consultoria estratégica e soluções inteligentes 
+            para um futuro mais verde.
+        </p>
+
+        <h2 class="w3-text-green">Nossos Valores</h2>
+        <hr style="width:200px" class="w3-opacity">
+        
+        <!-- CARDS DA HOME-->
+    <div class="w3-row w3-padding-16 w3-center">
+        <!-- CARD 1 -->
+        <div class="w3-third w3-section">
+            <div class="w3-card card-effects w3-padding-16">
+                <span class="w3-xxlarge">🌱</span>
+                <p class="w3-text-green"><b>Sustentabilidade</b></p>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="w3-third w3-section">
+            <div class="w3-card; card-effects w3-padding-16"> 
+                <span class="w3-xxlarge">💡</span>
+                <p class="w3-text-green"><b>Inovação</b></p>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="w3-third w3-section">
+            <div class="w3-card card-effects w3-padding-16">
+                <span class="w3-xxlarge">🤝</span>
+                <p class="w3-text-green"><b>Compromisso</b></p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- SEÇÃO PARCEIROS -->
+    <div class="w3-content w3-padding-64" id="parceiros">
+
+    <h2 class="w3-text-green">Parceiros</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-text-white">Empresas que confiam e caminham junto com a Verdant.</p>
+
+    <div class="w3-row w3-center w3-padding-16">
+
+        <div class="w3-third w3-section">
+            <div class="w3-card card-effects w3-padding-16">
+                <i class="fa fa-leaf w3-xxlarge w3-text-green"></i>
+                <p class="w3-text-white"><b>EcoTech</b></p>
+            </div>
+        </div>
+
+        <div class="w3-third w3-section">
+            <div class="w3-card card-effects w3-padding-16">
+                <i class="fa fa-sun-o w3-xxlarge w3-text-green"></i>
+                <p class="w3-text-white"><b>SolarBR</b></p>
+            </div>
+        </div>
+
+        <div class="w3-third w3-section">
+            <div class="w3-card card-effects w3-padding-16">
+                <i class="fa fa-recycle w3-xxlarge w3-text-green"></i>
+                <p class="w3-text-white"><b>ReciclaMax</b></p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- SEÇÃO FAQ -->
+    <div class="w3-content w3-padding-64" id="faq">
+
+        <h2 class="w3-text-green">Perguntas Frequentes</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <ul class="w3-ul w3-hoverable w3-dark-grey">
+
+            <li class="w3-padding-16">
+                <p class="w3-text-green"><b>O que é a Verdant?</b></p>
+                <p class="w3-text-white">Somos uma consultoria de tecnologia sustentável que ajuda empresas a reduzir seu impacto ambiental.</p>
+            </li>
+
+            <li class="w3-padding-16">
+                <p class="w3-text-green"><b>Quais serviços a Verdant oferece?</b></p>
+                <p class="w3-text-white">Oferecemos consultoria ambiental, desenvolvimento de soluções tecnológicas verdes e treinamentos corporativos.</p>
+            </li>
+
+            <li class="w3-padding-16">
+                <p class="w3-text-green"><b>Como posso contratar a Verdant?</b></p>
+                <p class="w3-text-white">Entre em contato pelo e-mail contato@verdant.com.br ou pelo telefone (11) 4002-8922.</p>
+            </li>
+
+            <li class="w3-padding-16">
+                <p class="w3-text-green"><b>A Verdant atende empresas de qualquer porte?</b></p>
+                <p class="w3-text-white">Sim! Atendemos desde pequenas empresas até grandes corporações.</p>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="w3-content w3-padding-32 w3-text-green w3-xlarge w3-center">
+        
+        <!-- BLOCOS DE REDE SOCIAS-->
+        <a href="#" target="blank">
+            <i class="fa fa-facebook-official w3-hover-opacity w3-text-green"></i>
+        </a>
+        <a href="#" target="blank">
+            <i class="fa fa-instagram w3-hover-opacity w3-text-green"></i>
+        </a>
+        <a href="#" target="blank">
+            <i class="fa fa-twitter w3-hover-opacity w3-text-green"></i>
+        </a>
+        <a href="#" target="blank">
+            <i class="fa fa-linkedin w3-hover-opacity w3-text-green"></i>
+        </a>
+
+        <!-- E-MAIL -->
+        <p class="w3-medium w3-text-white">
+            <a href="#" class="w3-text-green">contato@verdant.com.br</a>
+        </p>
+        <!-- NUMERO DE TELEFONE -->
+        <p class="w3-medium w3-text-white">
+            <a href="#" class="w3-text-white">(11) 4002-8922</a>
+        </p>
+
+        <p class="w3-medium w3-text-white">
+            Powered by <a href="#" class="w3-text-green">Verdant</a>
+        </p>
+
+    </footer>
+
+    </div>
+
+</body>
+</html>
