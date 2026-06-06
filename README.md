@@ -43,7 +43,7 @@ Basta abrir o arquivo `index.html` diretamente no navegador — não requer serv
 - Background com parallax fixo na seção hero
 - Layout responsivo via W3.CSS grid
 
-### Registro de uso da IA
+### Registro de uso da IA (Ag15)
 
 Primeiro expliquei o objetivo, e qual seria a atividade e orientei ela a me guia durante o processo.
 
@@ -54,3 +54,8 @@ Daqui que veio o nome Verdant, achei bem interessante.
 
 Nisso ele deu ideias de textos tambem.
 ![alt text](readme-images/img2.png)
+
+### Registro de uso da IA (Ag16)
+
+Claude foi usado como brainstorm para ideis de slides.
+![alt text](readme-images/img4.png)
